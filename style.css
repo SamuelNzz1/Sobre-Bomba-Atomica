@@ -1,4 +1,12 @@
-
+@font-face {
+    font-family: 'Caracas Demibold';
+    src: url('CaracasDemibold.eot');
+    src: url('CaracasDemibold.eot?#iefix') format('embedded-opentype'),
+    url('CaracasDemibold.woff') format('woff'),
+    url('CaracasDemibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }   
 
    @keyframes intro{
         from{
@@ -15,6 +23,7 @@
     margin: 0;
     padding: 0;
     border:0;
+    font-family: 'Caracas Demibold';
 
 }.cards{
     display: flex;
